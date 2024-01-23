@@ -8,32 +8,103 @@
       href="src/imagem/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <title>Contato | Ecommerce</title>
+    <link
+      rel="shortcut icon"
+      href="../src/imagem/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../src/css/reset.css" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Contato</title>
   </head>
   <body>
     <header>
-      <img src="../src/imagem/logo_idkshop.png" alt="logo idkshop" />
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-
-        <li>
-          <a href="produtos/produtos.html" target="_blank">Produtos</a>
-        </li>
-
-        <li>
-          <a href="contato/contato.html" target="_blank">Contato</a>
-        </li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../produtos/produtos.html" target="_blank">Produtos</a>
+          </li>
+          <li>
+            <a href="../contato/contato.html" target="_blank">Contato</a>
+          </li>
+          <li>
+            <a href="#">Entrar</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <div><a href="../index.html">Home</a></div>
-    </main>
+      <div>
+        <h1>Entre em contato</h1>
+      </div>
 
+      <br />
+
+      <div>
+        <form>
+          <div>
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="name"
+              placeholder="Seu nome"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="nome@email.com"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="tel">Telefone:</label>
+            <input
+              type="tel"
+              name="telefone"
+              id="tel"
+              placeholder="(xx)xxxxx-xxxx"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="message">Mensagem:</label>
+            <br />
+            <textarea
+              name="Mensagem"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Digite sua mensagem"
+            ></textarea>
+          </div>
+
+          <br />
+
+          <div><button type="submit">Enviar</button></div>
+
+          <br />
+        </form>
+      </div>
+    </main>
     <footer>
       <p>
         <strong>&copy; 2024 Minha Loja - Todos os direitos reservados</strong>

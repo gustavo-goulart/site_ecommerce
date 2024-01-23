@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2? family= Open+Sans & display=swap");
 
+body {
+  background-color: #e4e4e4;
+}
+
 header {
   background-color: #000;
 }
@@ -32,3 +36,14 @@ header ul li a:hover {
   float: right;
   background-color: #8921ac;
 } */
+
+main {
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
