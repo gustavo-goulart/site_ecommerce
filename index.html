@@ -3,23 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="src/imagem/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <title>Site | Ecommerce</title>
   </head>
   <body>
-    <!-- Cabeçalho -->
-    <div>
-      <ul>
-        <h1>Minha Loja</h1>
-        <li><a href="index.html">Home</a> |</li>
-        <li><a href="produtos.html" target="_blank">Produtos</a> |</li>
-        <li>
-          <a href="contato.html" target="_blank">Contato</a>
-        </li>
-      </ul>
-    </div>
-    <!-- Conteúdo da HOME -->
-    <div>
+    <header>
+      <nav>
+        <img
+          src="src/imagem/logo_idkshop.png"
+          alt="logo idkshop"
+          height="75"
+          width="250"
+        />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="produtos/produtos.html" target="_blank">Produtos</a>
+          </li>
+          <li>
+            <a href="contato/contato.html" target="_blank">Contato</a>
+          </li>
+          <li>
+            <a href="contato/contato.html">Entrar</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
       <h2>Produtos em destaque</h2>
 
       <div>
@@ -58,12 +77,11 @@
         <p>R$45,00</p>
         <a href="produtos.html" target="_blank">Detalhes</a>
       </div>
-
-      <div>
-        <p>
-          <strong>&copy; 2024 Minha Loja - Todos os direitos reservados</strong>
-        </p>
-      </div>
-    </div>
+    </main>
+    <footer>
+      <p>
+        <strong>&copy; 2024 Minha Loja - Todos os direitos reservados</strong>
+      </p>
+    </footer>
   </body>
 </html>

@@ -1,13 +1,36 @@
-h1 {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2? family= Open+Sans & display=swap");
 
-li {
+header {
+  padding: 16px 0;
+  background-color: #000;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
+header nav ul {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
 }
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+header ul li a:hover {
+  background-color: #8921ac;
+}
+
+/* header ul li:last-child a {
+  float: right;
+  background-color: #8921ac;
+} */
