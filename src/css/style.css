@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2? family= Open+Sans & display=swap");
 
 header {
-  padding: 16px 0;
   background-color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 header nav ul {
-  max-width: 800px;
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul li {
